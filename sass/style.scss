@@ -1,0 +1,54 @@
+/******* COLOURS *******/
+$white: #F2F2F2;
+$black: #333333;
+$real-white: #FFFFFF;
+$cloud: #ECF0F1;
+$cement: #95A5A6; 
+
+$blue: #123456;
+$dark-blue: #2c3e50;
+
+$red : #C0392B;
+$s2orange: #FE4716;
+
+$yellow: #ffd835;
+$pissyellow: #F1C40F;
+
+$green: #01853A;
+
+$shadow : 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+$shadowclick: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+/***** SIZES, MARGINS & PADDINGS *****/
+
+html{
+	font-family: 'Helvetica';
+}
+body{
+	width: 100%;
+	background-color: $white;
+}	
+h1{
+	font-size: 2em;
+	color: $black;
+}
+p{
+	font-size: 1em;
+	color: $black;
+}
+a{
+	color: $red;
+	text-decoration: none;
+}
+a:hover{
+	color: $s2orange;
+}
+
+.content{
+	min-width: 400px;
+	max-width: 1000px;
+	width:80%;
+	margin: 0 auto;
+	padding-left: 5%;
+	padding-right: 5%;
+}

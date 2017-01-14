@@ -1,0 +1,45 @@
+/******* COLOURS *******/
+/***** SIZES, MARGINS & PADDINGS *****/
+/* line 24, ../sass/style.scss */
+html {
+  font-family: 'Helvetica';
+}
+
+/* line 27, ../sass/style.scss */
+body {
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+/* line 31, ../sass/style.scss */
+h1 {
+  font-size: 2em;
+  color: #333333;
+}
+
+/* line 35, ../sass/style.scss */
+p {
+  font-size: 1em;
+  color: #333333;
+}
+
+/* line 39, ../sass/style.scss */
+a {
+  color: #C0392B;
+  text-decoration: none;
+}
+
+/* line 43, ../sass/style.scss */
+a:hover {
+  color: #FE4716;
+}
+
+/* line 47, ../sass/style.scss */
+.content {
+  min-width: 400px;
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
